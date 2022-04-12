@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="300.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="19.0" prefWidth="138.0">
+         <children>
+            <Label text="Other username" />
+         </children>
+      </HBox>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="277.0" prefWidth="306.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="277.0" prefWidth="305.0">
+               <children>
+                  <ListView prefHeight="277.0" prefWidth="289.0" />
+               </children></AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</VBox>
